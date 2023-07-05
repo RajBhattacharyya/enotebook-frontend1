@@ -8,7 +8,7 @@ export default function Login(props) {
   const [credentials, setCredentials] = useState({ email: "", password: "" });
   let navigate = useNavigate();
 
-  const host = "http://localhost:5000";
+  const host = "https://enote-api-5c2o.onrender.com";
 
   const handleSubmit = async (e) => {
     e.preventDefault();

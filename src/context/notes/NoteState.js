@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import NoteContext from "./NoteContext";
 
 export default function NoteState(props) {
-  const host = "http://localhost:5000";
+  const host = "https://enote-api-5c2o.onrender.com";
   const notesInitial = [];
 
   const [notes, setNotes] = useState(notesInitial);

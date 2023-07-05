@@ -9,7 +9,7 @@ export default function Signup(props) {
   const [credentials, setCredentials] = useState({ name: "", email: "", password: "", cpassword: "" });
   let navigate = useNavigate();
 
-  const host = "http://localhost:5000";
+  const host = "https://enote-api-5c2o.onrender.com";
 
   const handleSubmit = async (e) => {
     e.preventDefault();
